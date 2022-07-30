@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hoja de Vida Mauricio Mateus Patiño - HV</title>
+	<link rel="stylesheet" href="Estilo_HV.css" />
+	
+	<script type="text/javascript">
+		function cambiaFondo(x){
+			console.log (x.value);
+
+			var body = document.getElementById("body");
+			body.style.backgroundColor = x.value;
+		}
+
+	</script>
+
+	
+</head>
+<body id="body">
+	
+	<header>
+	<blockquote>
+	<h1>DATOS GENERALES</h1>
+	<div>
+	<img src="../imagenes_Sofka/Foto.JPG"  width="120" alt="Foto">
+	</div>
+	<h2>Nombre   : MAURICIO ERNESTO MATEUS PATIÑO </h2>
+	<h2>Profesión: <strong>Ingeniero en Informática - Tecnologo en Electrónica</strong></h2>
+	<h3>Dirección: Tunja-Boyacá</h3>
+	<h3>Teléfonos: 3102796437 - 3124652248</h3>
+	<h3>E-mail   : <i><a href="#">mauromatix@gmail.com</a> - <a href="#">maomatix@hotmail.com</a></i></h3>
+	
+	<hr/>
+	<details>
+	<summary><b>Información Complementaria: </b></summary>
+	
+	<nav>
+	
+	<ul><h3>
+		
+		<a href="Experiencia_Laboral.html"target="blank">Experiencia Laboral</a><br><br>
+		<a href="Referencias_Personales.html"target="blank">Referencias Personales</a><br><br>
+		<a href="Referencias_Familiares.html"target="blank">Referencias Familiares</a><br><br>
+		<a href="Estudios_Realizados.html"target="blank">Estudios Realizados</a><br>
+		</h3>
+	</ul>
+	
+	</nav>
+	</details>
+	
+
+	
+</body>
+	<hr/>
+	<a href="../index.html">Regresar a Portafolio</a><br><br>
+	<input type=button name=boton value=Cerrar onclick="window.close()">
+	<input type="button" value="Imprimir esta Página" onclick="window.print()">
+	
+	<a href="HV Mauricio_Mateus.pdf"target="blank" download="HV_Mauricio_Mateus_pdf"><button>Descargar Archivo pdf</button></a>
+	
+	<select name="fondo" id="fondo" onchange="cambiaFondo(this)">
+		<option value="#CCD1D1">Gris-Claro</option>
+		<option value="#D5F5E3">Verde-Claro</option>
+		<option value="#FADBD8">Rojo-Claro</option>
+	</select>
+	
+	<footer>
+		<p>&#174; 2022&#8211;7 <a href="#">Mauricio Ernesto Mateus Patiño</a></p>
+
+	
+
+	</footer>
+	</header>
+	</blockquote>
+</html>
+

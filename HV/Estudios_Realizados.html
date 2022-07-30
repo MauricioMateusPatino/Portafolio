@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hoja de Vida Mauricio Mateus Patiño - ESTUDIOS</title>
+	<link rel="stylesheet" href="Estilo_HV.css" />
+
+	<script type="text/javascript">
+		function cambiaFondo(x){
+			console.log (x.value);
+
+			var body = document.getElementById("body");
+			body.style.backgroundColor = x.value;
+		}
+
+	</script>
+</head>
+<body id="body">
+	<header>
+	<blockquote>
+	<h1>ESTUDIOS REALIZADOS</h1>
+	<h2>Nombre   : MAURICIO ERNESTO MATEUS PATIÑO </h2>
+	<h2>Profesión: <strong>Ingeniero en Informática - Tecnologo en Electrónica</strong></h2>
+	<h3>Dirección: Tunja-Boyacá</h3>
+	<h3>Teléfonos: 3102796437 - 3124652248</h3>
+	<h3>E-mail   : <i><a href="#">mauromatix@gmail.com</a> - <a href="#">maomatix@hotmail.com</a></i></h3>
+	<hr/>
+
+	<p><b>Información:</b> </p>
+	
+	<p>Año - 2021<br>Tunja/Colombia<br>Diplomado en Habilidades de Programación<br>
+	con Énfasis en Aplicaciones Web<br>Universidad Caldas/Min-Tic. 		
+	</p>
+	<p>Año - 2020<br>Tunja/Colombia<br>Curso Análisis Desarrollo Móvil APP Inventor<br>
+	Servicio Nacional de Aprendizaje (SENA)
+	</p>
+	<p>Año - 2009<br>Tunja/Colombia<br>Tecnólogo en Electrónica<br>
+	Universidad Pedagógica y Tecnológica de Colombia - UPTC - <br>
+	</p><br>
+
+
+	
+
+	
+</body>
+<hr/><br>
+<input type=button name=boton1 value=Salir onclick="window.close()">
+<input type="button" value="Imprimir esta Página" onclick="window.print()">
+<select name="fondo" id="fondo" onchange="cambiaFondo(this)">
+	<option value="#CCD1D1">Gris-Claro</option>
+	<option value="#D5F5E3">Verde-Claro</option>
+	<option value="#FADBD8">Rojo-Claro</option>
+</select>
+
+<footer>
+		<p>&#174; 2022&#8211;7 <a href="#">Mauricio Ernesto Mateus Patiño</a></p>
+</footer>
+</header>
+</blockquote>
+</html>
+

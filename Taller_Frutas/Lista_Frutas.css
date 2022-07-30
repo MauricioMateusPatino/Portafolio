@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.estilo1{
+    background-color: aqua;
+}
+.estilo2{
+    background-color: blueviolet;
+}
+
+body {
+    
+    font-family: 'Roboto', sans-serif;
+    background: #F8F9F9;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(../imagenes_Sofka/Portada.jpg);
+    
+}
+/* IMPORTANTE */
+div{
+    display:inline-block;
+    width: 100%;
+    background-color: #fafafa;
+    margin: auto;
+    padding: 2rem;
+    border: 2px solid #ccc;
+    
+    text-align: left;
+  
+    background: rgb(219, 213, 195);
+  
+}
+
+
+/*
+li:nth-child(even) {
+    background-color: #4294d3;
+}
+
+li:nth-child(odd) {
+    background-color: #6e5a5a;
+}
+*/
+button {
+    display: block;
+    background-color: #fafafa;
+    margin: 0 auto;
+    padding: 0.5rem;
+    cursor: pointer;
+    }
+
+
+.contenedor {
+    background: rgba(230, 185, 88, 0.479);
+    border-radius: 2px;
+    box-shadow: 19px 20px 8px -9px rgba(0,0,0,0.2);
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+}
+.cabecera {
+    background: #13334c;
+    color:azure;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 40px;
+}

@@ -1,0 +1,746 @@
+<HTML><HEAD>
+	<TITLE>TALLER_CONDICIONALES.psc</TITLE>
+	<STYLE type="text/css">
+		.SSD { color:#FFFFFF; background-color:#000000; }
+		.SS0 { color:#000000; background-color:#FFFFFF; }
+		.SS1 { color:#000000; background-color:#FFFFFF; }
+		.SS2 { font-style: italic; color:#969696; background-color:#FFFFFF; }
+		.SS3 { font-style: italic; color:#0000FF; background-color:#FFFFFF; }
+		.SS4 { color:#8E6B23; background-color:#FFFFFF; }
+		.SS5 { font-weight: bold; color:#000080; background-color:#FFFFFF; }
+		.SS6 { color:#FF0000; background-color:#FFFFFF; }
+		.SS7 { color:#FF0000; background-color:#FFFFFF; }
+		.SS8 { color:#DB70DB; background-color:#FFFFFF; }
+		.SS9 { color:#238E23; background-color:#FFFFFF; }
+		.SS10 { font-weight: bold; color:#000000; background-color:#FFFFFF; }
+		.SS11 { color:#000000; background-color:#FFFFFF; }
+		.SS12 { color:#FF0000; background-color:#F0F0F0; }
+		.SS13 { color:#000000; background-color:#FFFFFF; }
+		.SS14 { color:#DB70DB; background-color:#FFFFFF; }
+		.SS15 { color:#238E23; background-color:#FFFFFF; }
+		.SS16 { color:#000080; background-color:#FFFFFF; }
+		.SS17 { color:#42426F; background-color:#FFFFFF; }
+		.SS18 { color:#FF0000; background-color:#FFFFFF; }
+		.SS19 { color:#000000; background-color:#BFD8D8; }
+		.SS34 { font-weight: bold; color:#FF0000; background-color:#F0F0FF; }
+		.SS35 { font-weight: bold; color:#800000; background-color:#FFFFFF; }
+	</STYLE>
+</HEAD><BODY>
+	<header>
+	<PRE>
+		<hr size="8px" color="black"/><h3>Punto 1 : Realizar un programa en el cual se solicite la edad de una persona. 
+          Si la persona es mayor o igual a 18 años, deberá mostrar en pantalla:
+	  Usted es mayor de edad.</h3><hr size="2px" color="black" />		
+<SPAN class="SS5">Proceso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">TALLER_CONDICIONALES_PUNTO1</SPAN><SPAN class="SS0">
+
+</SPAN>    <SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">edad</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite su edad:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">edad</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">Si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">edad</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">≥</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">18</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">        
+        </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Usted es mayor de edad."</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+        
+    </SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+    
+</SPAN><SPAN class="SS5">FinProceso</SPAN><SPAN class="SS0"></SPAN>
+
+<hr size="2px" color="black" /><h3>Punto 2 : Realizar un programa en el cual se solicite la edad de una persona. 
+	  Si la persona es menor a 18 años, deberá mostrar en pantalla: Usted aún es un niño(a).</h3><hr size="2px" color="black" />
+<SPAN class="SS5">Proceso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">TALLER_CONDICIONALES_PUNTO2</SPAN>
+<SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">edad</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite su edad:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">edad</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">Si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">edad</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">≤</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">18</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">        
+        </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Usted aún es un niño(a)."</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+        
+    </SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+    
+</SPAN><SPAN class="SS5">FinProceso</SPAN><SPAN class="SS0">
+</SPAN>
+<hr size="2px" color="black" /><h3>Punto 3 : Realizar un programa en el cual se solicite el nombre, apellidos y edad de la persona.
+	  Si la persona es mayor o igual a 18 años, entonce se deberá imprimir en pantalla [Nombre completo] usted es mayor de edad, 
+	  por lo tanto puede entrar a la fiesta. Si la edad de la persona es menor que 18 años, entonces, deberá imprimirse el siguiente mensaje: 
+	  [Nombre completo] usted es menor de edad, por lo tanto, no puede entrar a la fiesta, por favor devuélvase a su casa.</h3><hr size="2px" color="black" />
+<SPAN class="SS5">Proceso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">TALLER_CONDICIONALES_PUNTO3</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">nombre</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">apellidos</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">edad</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Por favor digite su Nombre (Oprima Enter para continuar): "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">nombre</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Por favor digite sus Apellidos (Oprima Enter para continuar): "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">apellidos</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Por favor digite su edad (Oprima Enter para continuar): "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0">  </SPAN><SPAN class="SS11">edad</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">Si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">edad</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">≥</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">18</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">        
+        </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">nombre</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">apellidos</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" Usted es mayor de edad, por lo tanto puede entrar a la fiesta."</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+        
+    </SPAN><SPAN class="SS5">SiNo</SPAN><SPAN class="SS0"> 
+        </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">nombre</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">apellidos</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" Usted es menor de edad, por lo tanto, no puede entrar a la fiesta, por favor devuélvase a su casa."</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">    
+        
+    </SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+        
+</SPAN><SPAN class="SS5">FinProceso</SPAN><SPAN class="SS0">
+</SPAN>
+<hr size="2px" color="black" /><h3>Punto 4 : La video tienda que presta sus servicios de alquiler de películas a los usuarios del barrio el Porvenir, 
+	  requiere de una aplicación que permita registrar el alquiler de las películas que adquieren sus usuarios. 
+	  Para cada usuario se debe permitir la opción de alquilar película, consultar películas disponibles y recibir película en la video tienda con la opción
+	  de realizar anotaciones sobre estas si se llegan a presentar daños u otra novedad sobre la película.</h3><hr size="2px" color="black" />
+<SPAN class="SS2">//VIDEO TIENDA BARRIO PORVENIR</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">Proceso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">TALLER_CONDICIONALES_PUNTO4</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">nombreUsuario</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cedulaUsuario</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">telefonoUsuario</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">codigoPelicula</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcionDano</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Logico</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">observaciones</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	
+	
+	</SPAN><SPAN class="SS11">opcionDano</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Falso</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Consulte alquiler de películas en la videotienda"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">    
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Elija una Opción:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"1. Alquilar Películas"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"2. Consultar Películas Disponibles"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"3. Devolución Películas"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	
+	</SPAN><SPAN class="SS5">Segun</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+		
+		</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite su Nombre Completo:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">nombreUsuario</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0">  </SPAN><SPAN class="SS6">"Digite su Número de Cédula:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cedulaUsuario</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite su Número de Teléfono:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">telefonoUsuario</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite Código de la Película:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0">  </SPAN><SPAN class="SS11">codigoPelicula</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			
+		</SPAN><SPAN class="SS4">2</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Películas Disponibles"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"01-AAAA"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"02-BBBB"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"03-CCCC"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"04-DDDD"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"05-EEEE"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"......."</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"......."</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+		</SPAN><SPAN class="SS4">3</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Devolución de Película"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Presenta observaciones la devolución (Verdadero/Falso):"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcionDano</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			
+			</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcionDano</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Verdadero</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Observaciones:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">observaciones</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+			
+		</SPAN><SPAN class="SS5">De</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Otro</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Modo</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"La opción elegida no existe"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">FinSegun</SPAN><SPAN class="SS0">
+	
+</SPAN><SPAN class="SS5">FinProceso</SPAN><SPAN class="SS0">
+</SPAN>
+<hr size="2px" color="black" /><h3>Punto 5: La Droguería Mi Salud presta sus servicios en la localidad de Suba y requiere una aplicación para poder facturar los productos que vende a sus clientes
+	 y para ello, los productos tienen unas características que deben indicársele al cliente para que pueda escoger el producto a comprar. Para cada cliente, 
+	 se tienen las opciones de compra de producto, consulta de precios por producto y devoluciones en caso de que se presenten.</h3><hr size="2px" color="black" />
+<SPAN class="SS2">//DROGUERIA MI SALUD LOCALIDAD SUBA</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">Proceso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">TALLER_CONDICIONALES_PUNTO5</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">producto1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">producto2</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">producto3</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">producto4</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">producto5</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">codigoproducto1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">codigoproducto2</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">codigoproducto3</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">codigoproducto4</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">codigoproducto5</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">continualistado</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">caracteristicas1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">caracteristicas2</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">caracteristicas3</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">caracteristicas4</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">caracteristicas5</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">valorproducto1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">valorproducto2</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">valorproducto3</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">valorproducto4</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">valorproducto5</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcionpro</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcionDano</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Logico</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">observaciones</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	
+	
+	</SPAN><SPAN class="SS11">producto1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"AAAAAA"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">producto2</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"BBBBBB"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">producto3</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"CCCCCC"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">producto4</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"DDDDDD"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">producto5</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"EEEEEE"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">continualistado</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"-----Continúa Listado------"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">codigoproducto1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0001</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">codigoproducto2</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0002</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">codigoproducto3</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0003</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">codigoproducto4</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0004</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">codigoproducto5</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0005</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">caracteristicas1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"xxxxx---xxxxxx---xxxx"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">caracteristicas2</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"++++++----++++---++++"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">caracteristicas3</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"$4$$$$$****----------"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">caracteristicas4</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"!!!&amp;/8))0----)=?=----"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">caracteristicas5</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"+ñññ}}ñ{lñ-----------"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">valorproducto1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1000</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">valorproducto2</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">2000</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">valorproducto3</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">3000</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">valorproducto4</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">4000</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">valorproducto5</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">5000</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	
+	</SPAN><SPAN class="SS11">opcionDano</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Falso</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Consulte productos de la Drogueria MI SALUD"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">    
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Elija una Opción:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"1. Consultar Productos Existentes"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"2. Consultar Valor Producto"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"3. Comprar Producto"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"4. Devolución "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	
+	
+	
+	</SPAN><SPAN class="SS5">Segun</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+		
+		</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Productos"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"CÓDIGO : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">codigoproducto1</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">producto1</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" CARACTERISTICAS : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">caracteristicas1</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" VALOR ; ($)"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">valorproducto1</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"CÓDIGO : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">codigoproducto2</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">producto2</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" CARACTERISTICAS : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">caracteristicas2</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" VALOR ; ($)"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">valorproducto2</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"CÓDIGO : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">codigoproducto3</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">producto3</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" CARACTERISTICAS : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">caracteristicas3</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" VALOR ; ($)"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">valorproducto3</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"CÓDIGO : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">codigoproducto4</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">producto4</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" CARACTERISTICAS : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">caracteristicas4</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" VALOR ; ($)"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">valorproducto4</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"CÓDIGO : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">codigoproducto5</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">producto5</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" CARACTERISTICAS : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">caracteristicas5</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" VALOR ; ($)"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">valorproducto5</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">continualistado</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			
+		</SPAN><SPAN class="SS4">2</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite el Cógico del Producto que desea Consultar:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcionpro</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			
+			</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcionpro</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0001</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+				
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">producto1</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" Valor :"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">valorproducto1</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				
+			</SPAN><SPAN class="SS5">SiNo</SPAN><SPAN class="SS0">
+				
+				</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcionpro</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0002</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0"> 
+				
+					</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">producto2</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" Valor :"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">valorproducto2</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				
+				</SPAN><SPAN class="SS5">SiNo</SPAN><SPAN class="SS0">
+					
+					</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcionpro</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0003</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+					
+						</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">producto3</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" Valor :"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">valorproducto3</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+					
+					</SPAN><SPAN class="SS5">SiNo</SPAN><SPAN class="SS0">
+						
+						</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcionpro</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0004</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+						
+							</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">producto4</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" Valor :"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">valorproducto4</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+						
+						</SPAN><SPAN class="SS5">SiNo</SPAN><SPAN class="SS0">
+							
+							</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcionpro</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0005</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+							
+								</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">producto5</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" Valor :"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">valorproducto5</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+								
+							</SPAN><SPAN class="SS5">SiNo</SPAN><SPAN class="SS0">
+								
+								</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"La opción elegida no existe"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			
+							</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+						</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+			
+						
+			
+		</SPAN><SPAN class="SS4">3</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite el código del Producto que desea Comprar :"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcionpro</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			
+			</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcionpro</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0001</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+				
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">producto1</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" Valor :"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">valorproducto1</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				
+			</SPAN><SPAN class="SS5">SiNo</SPAN><SPAN class="SS0">
+				
+				</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcionpro</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0002</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0"> 
+				
+					</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">producto2</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" Valor :"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">valorproducto2</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				
+				</SPAN><SPAN class="SS5">SiNo</SPAN><SPAN class="SS0">
+					
+					</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcionpro</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0003</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+				
+					</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">producto3</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" Valor :"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">valorproducto3</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				
+					</SPAN><SPAN class="SS5">sino</SPAN><SPAN class="SS0">
+					
+						</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcionpro</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0004</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+				
+							</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">producto4</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" Valor :"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">valorproducto4</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				
+						</SPAN><SPAN class="SS5">SiNo</SPAN><SPAN class="SS0">
+							
+							</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcionpro</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0005</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+				
+								</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">producto5</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" Valor :"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">valorproducto5</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+							</SPAN><SPAN class="SS5">SiNo</SPAN><SPAN class="SS0">
+			
+								</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"La opción elegida no existe"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+							</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+						</SPAN><SPAN class="SS5">Finsi</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Finsi</SPAN><SPAN class="SS0">
+				
+					
+			
+				
+		</SPAN><SPAN class="SS4">4</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Devolución "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Presenta observaciones de la devolución (Verdadero/Falso):"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcionDano</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			
+			</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcionDano</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Verdadero</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Escriba las Observaciones:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">observaciones</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+			
+		</SPAN><SPAN class="SS5">De</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Otro</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Modo</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"La opción elegida no existe"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">FinSegun</SPAN><SPAN class="SS0">
+	
+</SPAN><SPAN class="SS5">FinProceso</SPAN><SPAN class="SS0">
+</SPAN>
+<hr size="2px" color="black" /><h3>Punto 6 : El taller de motos "El Maquinista" recibe motocicletas de alto cilindraje para realizar las respectivas revisiones
+	  y requiere una aplicación que le permita registrar los servicios generados a sus clientes. 
+	  Para cada motocicleta se debe tener registro del ingreso al taller y las observaciones por parte del cliente. 
+	  También debe existir registro de salida del taller con las novedades y otra de arreglos hechos por el mecánico 
+	  en caso de que se requiera inventariar cambios repuestos en la motocicleta al entregarla.</h3><hr size="2px" color="black" />
+<SPAN class="SS2">//TALLER DE MOTOS EL MAQUINISTA</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">Proceso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">TALLER_CONIDICIONALES_PUNTO6</SPAN><SPAN class="SS0">
+	
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">nombreUsuario</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cedulaUsuario</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">telefonoUsuario</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Real</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">placaMoto</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">observacionesingreso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">fechaIng</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">fechaSal</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">mecanico</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">novedadesSalida</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">arreglosejecutados</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcionInventario</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Logico</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">observaciones</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	
+	</SPAN><SPAN class="SS11">nombreUsuario</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Mauricio Mateus"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">cedulaUsuario</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">548545554</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">telefonoUsuario</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">3102796437</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">placaMoto</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"AAA111"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">observacionesingreso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Reparación sistema eléctrico, cambio de cadena. Regular estado de pintura."</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">fechaIng</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"22/05/2022"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">mecanico</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Jorge Toro"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">novedadesSalida</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Manntenimiento de sistema eléctrico, Cambio de kit de arrastre, sincronización, ajuste de frenos."</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">arreglosejecutados</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Instalación de 2 Bombillos, Cambio fusible, Cambio Kit Arrastre."</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">fechaSal</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"28/05/2022"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	
+	</SPAN><SPAN class="SS11">opcionInventario</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Falso</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Servicios Taller"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">    
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Elija una Opción:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"1. Registro de Ingreso Vehículo"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"2. Registro de salida Vehículo"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"3. Mantenimiento Realizado"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	
+	</SPAN><SPAN class="SS5">Segun</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+		
+		</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite Nombre Dueño Vehiculo:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">nombreUsuario</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0">  </SPAN><SPAN class="SS6">"Digite su Número de Cédula:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cedulaUsuario</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite su Número de Teléfono:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">telefonoUsuario</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite Placa Vehículo:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0">  </SPAN><SPAN class="SS11">placaMoto</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">    
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"REGISTRO DE INGRESO VEHICULO;"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite la fecha de ingreso del vehículo (dd/mm/aaaa);"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">fechaIng</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0">  </SPAN><SPAN class="SS6">"Digite el nombre completo del Mecánico que recibe el vehículo:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">mecanico</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0">  </SPAN><SPAN class="SS6">"Digite las observaciones que presenta el vehículo en el ingreso al taller : "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">observacionesingreso</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"**************************************************************************"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"El registro de ingreso del vehículo es el siguiente"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Vehículo Motocileta de Placas : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">placaMoto</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" propietario "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">nombreUsuario</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" CC "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cedulaUsuario</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Fecha de Ingreso "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">fechaIng</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">observacionesingreso</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" motocicleta recibida por : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">mecanico</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"."</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			
+			
+		</SPAN><SPAN class="SS4">2</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite la placa del Vehículo : "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">placaMoto</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			
+			</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">placaMoto</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"AAA111"</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+				
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"El registro de salida del vehículo es el siguiente"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Vehículo Motocileta de Placas : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">placaMoto</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" propietario "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">nombreUsuario</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" CC "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cedulaUsuario</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Fecha de Ingreso "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">fechaIng</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS6">" Con Observaciones de Ingreso de : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">observacionesingreso</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" motocicleta recibida por : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">mecanico</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"."</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Con el siguiente reporte:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">novedadesSalida</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" con fecha de salida de :"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">fechaSal</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				
+			</SPAN><SPAN class="SS5">SiNo</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Vehículo motocicleta no se encuentra en el taller"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+			
+			
+		</SPAN><SPAN class="SS4">3</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Inventario/Cambios Repuestos"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Requiere Inventario de arreglos y respuestos? (Verdadero/Falso):"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcionInventario</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			
+			</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcionInventario</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Verdadero</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite la placa del Vehículo : "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">placaMoto</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">placaMoto</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"AAA111"</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+						</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Vehículo Motocileta de Placas : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">placaMoto</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" propietario "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">nombreUsuario</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" CC "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cedulaUsuario</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+						</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Observaciones Motocilceta : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">arreglosejecutados</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">SiNo</SPAN><SPAN class="SS0">
+						</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Vehículo motocicleta no se encuentra en el taller"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				
+					</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+			
+			</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+			
+		
+		</SPAN><SPAN class="SS5">De</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Otro</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Modo</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"La opción elegida no existe"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">FinSegun</SPAN><SPAN class="SS0">
+	
+</SPAN><SPAN class="SS5">FinProceso</SPAN><SPAN class="SS0">
+</SPAN>
+<hr size="2px" color="black" /><h3>Punto 7 : La Secretaría de Salud Municipal requiere de una aplicación que le permita calcular el IMC (Índice de masa corporal)
+	  y requiere los datos peso en kilogramos y estatura en metros Para cada persona encuestada adicional a los datos suministrados, 
+	  debe mostrar el resultado para cada uno y establecer en qué rango se encuentra (bajo peso, normal, sobrepeso y obeso).</h3><hr size="2px" color="black" />
+<SPAN class="SS2">//MINISTERIO DE SALUD - MASA CORPORAL -</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">Proceso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">TALLER_CONDICIONALES_PUNTO7</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">peso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Real</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">estatura</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Real</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">imc</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Real</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite el número de su peso en Kg: "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">peso</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite el número de su estatura en metros:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">estatura</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	
+	</SPAN><SPAN class="SS11">imc</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">peso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">/</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">(</SPAN><SPAN class="SS11">estatura</SPAN><SPAN class="SS0">  </SPAN><SPAN class="SS10">↑</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">2</SPAN><SPAN class="SS10">);</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Su imc (Indice de Masa Corporal) es de : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">imc</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	
+	</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">imc</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">&lt;</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">18.5</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+		</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"La persona se encuentra bajo de peso"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+	
+	</SPAN><SPAN class="SS5">Si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">imc</SPAN><SPAN class="SS0">  </SPAN><SPAN class="SS10">≥</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">18.5</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">∧</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">imc</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">&lt;</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">25</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+		</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"La persona se encuentra en su peso normal"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+	
+	</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">imc</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">≥</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">25</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">∧</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">imc</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">&lt;</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">30</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+		</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"La persona se encuentra con sobrepeso"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+	
+	</SPAN><SPAN class="SS5">Si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">imc</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">&gt;</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">30</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+		</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"La persona se encuntra con obesidad"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+	
+</SPAN><SPAN class="SS5">FinProceso</SPAN><SPAN class="SS0">
+</SPAN>
+<hr size="2px" color="black" /><h3>Punto 8 : El pastelero Don Carlos es el mejor pastelero de la ciudad y requiere una aplicación que le permita registrar
+	  los pedidos de los clientes en cuanto a las tortas que realiza. Cada torta tiene unas características propias como sabor, 
+	  cantidad (porciones) y decoraciones). Se requiere que la aplicación permita registrar los pedidos, las tortas disponibles y las ventas 
+	  que se registren diariamente.</h3><hr size="2px" color="black"/>
+<SPAN class="SS2">//PASTELERO DON CARLOS</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">Proceso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">TALLER_CONDICIONALES_PUNTO8</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">Pedido</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">tordisponible</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">pedidototal</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">caracteristicastorta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+		
+	</SPAN><SPAN class="SS11">pedidototal</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	
+		
+	</SPAN><SPAN class="SS5">Repetir</SPAN><SPAN class="SS0">
+	
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Consulta producto  de TORTA en la panaderia"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">    
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Elija una Opción:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"1. Registrar Pedido"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"2. Consultar Tortas Disponibles"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"3. Consultar ventas dia"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"4. salir"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	
+	</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	
+	
+		</SPAN><SPAN class="SS5">Segun</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+			
+			</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite numero de tortas para llevar:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">Pedido</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0">  </SPAN><SPAN class="SS6">"Digite las caracteristicas de la torta"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">caracteristicastorta</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"PEDIDO REGISTRADO"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS11">pedidototal</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS11">pedido</SPAN><SPAN class="SS10">+</SPAN><SPAN class="SS11">pedidototal</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+
+			</SPAN><SPAN class="SS4">2</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"-----TORTAS DISPONIBLES-----"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Torta de Chocolate"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Torta de vainilla"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Torta Frutos Rojos"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Torta de Frutas"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				
+			</SPAN><SPAN class="SS4">3</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"El total del TORTAS DEL DÍA FUERON : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">pedidototal</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS4">4</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"GRACIAS POR SU PEDIDO ***** SALIR"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				
+		</SPAN><SPAN class="SS5">De</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Otro</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Modo</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"La opción elegida no existe"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				
+				
+		</SPAN><SPAN class="SS5">FinSegun</SPAN><SPAN class="SS0">
+		
+	</SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Que</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">4</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	
+	
+	
+</SPAN><SPAN class="SS5">FinProceso</SPAN><SPAN class="SS0">
+</SPAN>
+<hr size="2px" color="black" /><h3>Punto 9 : El profesor de geometría está explicando a sus estudiantes las fórmulas para calcular el área de diferentes figuras geométricas,
+	  para ello requiere una aplicación que le facilite el ejercicio solicitándole los valores al estudiante. 
+	  La aplicación debe permitir que el estudiante seleccione si desea calcular el área de un rectángulo, triángulo o trapecio. 
+	  No olvide solicitar los datos necesarios para realizar cada cálculo y mostrar su respectivo resultado.</h3><hr size="2px" color="black"/>
+<SPAN class="SS2">//PROFESOR MATEMÁTICAS BUSQUEDA AREAS DE FIGURAS GEOMETRICAS</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">Proceso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">TALLER_CONDICIONALES_PUNTO9</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">areaTrap</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Real</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">baseMayor</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Real</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">baseMenor</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Real</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">alturaTrap</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Real</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">areaTrian</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Real</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">baseTrian</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Real</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">alturaTrian</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Real</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">areaRect</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Real</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">baseRect</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Real</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">alturaRect</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Real</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	
+	
+	</SPAN><SPAN class="SS5">Repetir</SPAN><SPAN class="SS0">
+		</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"**************************************************************"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+		</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Consulta áreas de figura geométrica"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">    
+		</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Elija una Opción:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+		</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"1. Área del Rectángulo"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+		</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"2. Área del Triángulo"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+		</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"3. Área del Trapecio"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+		</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"4. Salir Consulta"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+		
+		</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+		
+		</SPAN><SPAN class="SS5">Segun</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+			
+			</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"ÁREA DEL RECTANGULO:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite la medida de la Base : "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">baseRect</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0">  </SPAN><SPAN class="SS6">"Digite la medida de la Áltura : "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">alturaRect</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				
+				</SPAN><SPAN class="SS11">areaRect</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">baseRect</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">*</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">alturaRect</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0"> 
+				
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"El Área de la figura geométrica del Rectangulo es : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">areaRect</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				
+			</SPAN><SPAN class="SS4">2</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"ÁREA DEL TRIANGULO:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite la medida de la Base : "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">baseTrian</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0">  </SPAN><SPAN class="SS6">"Digite la medida de la Áltura : "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">alturaTrian</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				
+				</SPAN><SPAN class="SS11">areaTrian</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">(</SPAN><SPAN class="SS11">baseTrian</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">*</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">alturaTrian</SPAN><SPAN class="SS10">)/</SPAN><SPAN class="SS4">2</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0"> 
+				
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"El Área de la figura geométrica del Triangulo es : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">areaTrian</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				
+			</SPAN><SPAN class="SS4">3</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"ÁREA DEL TRAPECIO:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite la medida de la Base Mayor : "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">baseMayor</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0">  </SPAN><SPAN class="SS6">"Digite la medida de la Base Menor : "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">baseMenor</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite la medida de la Altura"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">alturaTrap</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				
+				</SPAN><SPAN class="SS11">areaTrap</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">((</SPAN><SPAN class="SS11">baseMayor</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">+</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">baseMenor</SPAN><SPAN class="SS10">)</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">*</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">alturaTrap</SPAN><SPAN class="SS10">)/</SPAN><SPAN class="SS4">2</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0"> 
+				
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"El Área de la figura geométrica del trapecio es : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">areaTrap</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+			</SPAN><SPAN class="SS4">4</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"---SALIR---"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				
+			</SPAN><SPAN class="SS5">De</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Otro</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Modo</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"La opción elegida no existe"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				
+				
+		</SPAN><SPAN class="SS5">FinSegun</SPAN><SPAN class="SS0">
+		
+	</SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Que</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">4</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	
+</SPAN><SPAN class="SS5">FinProceso</SPAN><SPAN class="SS0">
+</SPAN>
+<hr size="2px" color="black" /><h3>Punto 10 : El banco "Su banco fiel" es un banco que inicia sus actividades financieras y necesita una aplicación para llevar las cuentas de sus usuarios;
+	   por lo tanto, se sugiere que la cuenta tenga los atributos titular y cantidad. Para cada cliente las cuentas permitirán realizar ingresos, retiros o consultas de valor. 
+	   En los ingresos no se pueden insertar valores negativos y para los retiros el valor no puede ser mayor al valor que tiene en la cuenta.</h3><hr size="2px" color="black"/>
+
+<SPAN class="SS2">//SU BANCO FIEL</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">Proceso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">TALLER_CONDICIONALES_PUNTO10</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">titular</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cuenta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numeroCuentaNueva</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numeroCuenta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numeroCuentaRetiro</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">saldo</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cantidad</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">ingreso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">retiro</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">consulta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	
+	</SPAN><SPAN class="SS11">saldo</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	</SPAN><SPAN class="SS11">numeroCuentaNueva</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+
+	
+	</SPAN><SPAN class="SS5">Repetir</SPAN><SPAN class="SS0">
+		
+		</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"*******************************************************************"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+		</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite la opción de la transcción que desea realizar"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">    
+		</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Elija una Opción:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+		</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"1. Ingresar Dinero"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+		</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"2. Retirar Dinero"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+		</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"3. Consultar Saldo"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+		</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"4. salir"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+		
+		</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+		
+		</SPAN><SPAN class="SS5">Segun</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+			
+			</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"INGRESAR DINERO"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Desea Ingresar Dinero a una Cuenta Nueva (Digite SI / NO) : "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cuenta</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cuenta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"SI"</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS11">numeroCuentaNueva</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS11">numeroCuenta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite Nombre Titular de la Cuenta :"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">titular</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite el Número de la Cuenta : "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numeroCuentaNueva</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS11">saldo</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0">  </SPAN><SPAN class="SS6">"Digite Cantidad de Dinero a Ingresar (Recuerde el valor debe ser mayor de 0)"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cantidad</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cantidad</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">≥</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+						</SPAN><SPAN class="SS11">saldo</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">saldo</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">+</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cantidad</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+						</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"INGRESO DE DINERO EXITOSO"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">SiNo</SPAN><SPAN class="SS0">
+						</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite la cantidad de dinero correcta"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+					
+				</SPAN><SPAN class="SS5">SiNo</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">Si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cuenta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"NO"</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+						</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite el Número de la Cuenta existente : "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+						</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numeroCuenta</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+						</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numeroCuenta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numeroCuentaNueva</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+							</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0">  </SPAN><SPAN class="SS6">"Digite Cantidad de Dinero a Ingresar (Recuerde el valor debe ser mayor de 0)"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+							</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cantidad</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+							</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cantidad</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">≥</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+								</SPAN><SPAN class="SS11">saldo</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">saldo</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">+</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cantidad</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+								</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"INGRESO DE DINERO EXITOSO"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+							</SPAN><SPAN class="SS5">siNo</SPAN><SPAN class="SS0">
+								</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite la cantidad de dinero correcta"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+							</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+						</SPAN><SPAN class="SS5">SiNo</SPAN><SPAN class="SS0">
+							</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Número de Cuenta no Válida"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">                        
+						</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+					
+				</SPAN><SPAN class="SS5">Finsi</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"La opción elegida no existe (Verifique las letras mayúsculas)"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">    
+				
+					
+				
+				
+			</SPAN><SPAN class="SS4">2</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"RETIRAR DINERO"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite el Número de Cuenta : "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numeroCuentaRetiro</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numeroCuentaRetiro</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numeroCuentaNueva</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite la Cantidad de Dinero a Retirar :"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">retiro</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">retiro</SPAN><SPAN class="SS10">≤</SPAN><SPAN class="SS11">saldo</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+						</SPAN><SPAN class="SS11">saldo</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">saldo</SPAN><SPAN class="SS10">-</SPAN><SPAN class="SS11">retiro</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+						</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"RETIRO EXITOSO"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">SiNo</SPAN><SPAN class="SS0">
+						</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"No hay fondos suficientes en la cuenta"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">SiNo</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Número de Cuenta no Válida"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">                    
+				</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+				
+				
+			</SPAN><SPAN class="SS4">3</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"CONSULTAR DINERO"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite el Número de Cuenta : "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numeroCuentaRetiro</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numeroCuentaRetiro</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numeroCuentaNueva</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">titular</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"con número de cuenta "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numeroCuentaRetiro</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" el saldo es : "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0">  </SPAN><SPAN class="SS11">saldo</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"."</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">SiNo</SPAN><SPAN class="SS0">
+					</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Número de Cuenta no Válida"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">                    
+				</SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+				
+			</SPAN><SPAN class="SS4">4</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"GRACIAS POR UTILIZAR NUESTRO BANCO --- SALIR---"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				
+			</SPAN><SPAN class="SS5">De</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Otro</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Modo</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+				</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"La opción elegida no existe"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+				
+				
+		</SPAN><SPAN class="SS5">FinSegun</SPAN><SPAN class="SS0">
+		
+	</SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Que</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">4</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+	
+	
+</SPAN><SPAN class="SS5">FinProceso</SPAN><SPAN class="SS0">
+</SPAN>
+
+</PRE>
+</header>
+<hr size="2px" color="black" />	
+<li><a href="../videos_Sofka/video_taller2.mp4" style="color:#FF0000">Ver Video del Tema</a></li>
+<br>
+<li><a href="../index.html" style="color:#FF0000">Regresar Portafolio</a></li>
+<hr size="8px" color="black"/>
+</BODY></HTML>

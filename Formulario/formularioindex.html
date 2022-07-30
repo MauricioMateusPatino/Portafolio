@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Contactenos</title>
+    <!--Se referencia el archivo del estilo del formulario-->
+    <link rel="stylesheet" href="formulariostyle.css">
+    
+
+</head>
+<body>
+    
+    <!--Creo un contenedor donde se realiza el formulario-->
+    <div class="contenedor">
+        <div class="cabecera">
+            <h1>Contáctenos</h1>
+        </div>
+       <form id="formulario" action="" method="">
+            <!--Se crean las cajas de interacción con el usuario-->
+            <div class="form-control">
+                <label for="usuario">Nombre de usuario</label>
+                <input id="usuario" type="text">
+                <p></p>                
+            </div>
+
+            <div class="form-control">
+                <label for="email">E-mail</label>
+                <input id="email" type="email">
+                <p></p>                
+            </div>
+
+            <div class="form-control">
+                <label for="asunto">Asunto</label>
+                <input id="asunto" type="asunto">
+                <p></p>                
+            </div>
+
+            <div class="form-control">
+                <label for="mensaje">Mensaje</label>
+                <input id="mensaje" type="mensaje">
+                <p></p>                
+            </div>
+            <button type="submit" >Enviar Formulario</button> <br>  
+            <button type="reset">Limpiar Formulario</button><br>
+            <a href="../index.html">Regresar a Portafolio</a>
+            
+            
+        </form>
+    </div>
+    <!--Se adapta el script creado para el formualrio-->
+    <script src="formulario.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hoja de Vida Mauricio Mateus Patiño - Ref FAMILIAR</title>
+	<link rel="stylesheet" href="Estilo_HV.css" />
+	<script type="text/javascript">
+		function cambiaFondo(x){
+			console.log (x.value);
+
+			var body = document.getElementById("body");
+			body.style.backgroundColor = x.value;
+		}
+
+	</script>
+</head>
+<body id="body">
+	<header>
+	<blockquote>
+	<h1>REFERENCIAS FAMILIARES</h1>
+	<h2>Nombre   : MAURICIO ERNESTO MATEUS PATIÑO </h2>
+	<h2>Profesión: <strong>Ingeniero en Informática - Tecnologo en Electrónica</strong></h2>
+	<h3>Dirección: Tunja-Boyacá</h3>
+	<h3>Teléfonos: 3102796437 - 3124652248</h3>
+	<h3>E-mail   : <i><a href="#">mauromatix@gmail.com</a> - <a href="#">maomatix@hotmail.com</a></i></h3>
+	<hr/>
+
+	<p><b>Información:</b> </p>
+	
+	<p><b>Natalia Xiomara Hernandez Hernandez</b><br>Parentesco: Esposa<br>
+	Contadora Pública <br>Teléfono: 3124652248<br>E-mail: nataxiomy@gmail.com
+	</p>
+	<p><b>Lucila Patiño Soler</b><br>Parentesco: Madre<br>Independiente<br>
+	Teléfono: 3133651001<br>E-mail: luzpaso@gmail.com
+	</p>
+	<p><b>Diana Paola Mateus Patiño</b><br>Parentesco: Hermana<br>Ingeniera Industrial<br>
+	Teléfono: 3125974069   <br>E-mail: dianapaomateus@hotmail.com 
+	</p>
+
+
+	
+</body>
+<hr/><br>
+<input type=button name=boton1 value=Salir onclick="window.close()">
+<input type="button" value="Imprimir esta Página" onclick="window.print()">
+<select name="fondo" id="fondo" onchange="cambiaFondo(this)">
+		<option value="#CCD1D1">Gris-Claro</option>
+		<option value="#D5F5E3">Verde-Claro</option>
+		<option value="#FADBD8">Rojo-Claro</option>
+	</select>
+<footer>
+		<p>&#174; 2022&#8211;7 <a href="#">Mauricio Ernesto Mateus Patiño</a></p>
+	</footer>
+	</header>
+</blockquote>
+</html>

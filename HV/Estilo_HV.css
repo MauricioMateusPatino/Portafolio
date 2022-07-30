@@ -1,0 +1,31 @@
+
+header{
+
+	background: darkred;
+	height: 40px;
+	width: 100%;
+	margin: 0px;
+	text-align: center;
+}
+
+img{
+
+	border-style: solid;
+	border-width: 10px;
+	filter: drop-shadow(10px 10px 5px black);
+}	
+
+input{
+	cursor: pointer;
+}
+
+button{
+	cursor: pointer;
+}
+
+
+
+
+
+
+

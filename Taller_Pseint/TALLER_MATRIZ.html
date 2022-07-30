@@ -1,0 +1,425 @@
+<HTML><HEAD>
+	<TITLE>TALLER_MATRIZ.psc</TITLE>
+	<STYLE type="text/css">
+		.SSD { color:#FFFFFF; background-color:#000000; }
+		.SS0 { color:#000000; background-color:#FFFFFF; }
+		.SS1 { color:#000000; background-color:#FFFFFF; }
+		.SS2 { font-style: italic; color:#969696; background-color:#FFFFFF; }
+		.SS3 { font-style: italic; color:#0000FF; background-color:#FFFFFF; }
+		.SS4 { color:#8E6B23; background-color:#FFFFFF; }
+		.SS5 { font-weight: bold; color:#000080; background-color:#FFFFFF; }
+		.SS6 { color:#FF0000; background-color:#FFFFFF; }
+		.SS7 { color:#FF0000; background-color:#FFFFFF; }
+		.SS8 { color:#DB70DB; background-color:#FFFFFF; }
+		.SS9 { color:#238E23; background-color:#FFFFFF; }
+		.SS10 { font-weight: bold; color:#000000; background-color:#FFFFFF; }
+		.SS11 { color:#000000; background-color:#FFFFFF; }
+		.SS12 { color:#FF0000; background-color:#F0F0F0; }
+		.SS13 { color:#000000; background-color:#FFFFFF; }
+		.SS14 { color:#DB70DB; background-color:#FFFFFF; }
+		.SS15 { color:#238E23; background-color:#FFFFFF; }
+		.SS16 { color:#000080; background-color:#FFFFFF; }
+		.SS17 { color:#42426F; background-color:#FFFFFF; }
+		.SS18 { color:#FF0000; background-color:#FFFFFF; }
+		.SS19 { color:#000000; background-color:#BFD8D8; }
+		.SS34 { font-weight: bold; color:#FF0000; background-color:#F0F0FF; }
+		.SS35 { font-weight: bold; color:#800000; background-color:#FFFFFF; }
+	</STYLE>
+</HEAD><BODY>
+<header>
+<PRE>
+<hr size="8px" color="black"/><h3>Punto 1 : Crear un vector de tipo Entero con 5 posiciones, llenarlo con información solicitada al usuario. 
+	  Después de recoger toda la información, se requiere imprimir el índice de cada posición en el arreglo con su valor de la siguiente manera:</h3><hr size="2px" color="black" />
+<img src="../imagenes_Sofka/punto6.jpg" width="350" height="200" /> 	
+<SPAN class="SS2">//LLENAR ARREGLO</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">Proceso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">TALLER_MATRIZ_PUNTO1</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">indice</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">posicion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">num</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">vector</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Dimension</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">vector</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS4">5</SPAN><SPAN class="SS10">];</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">Para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">indice</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">4</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite el valor de la posición "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">indice</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" del vector: "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">num</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS11">vector</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS11">indice</SPAN><SPAN class="SS10">]</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">num</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0"> 
+    </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">Para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">posicion</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">4</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"["</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">posicion</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS6">"]"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS6">" = "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">vector</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS11">posicion</SPAN><SPAN class="SS10">];</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+    
+</SPAN><SPAN class="SS5">FinProceso</SPAN><SPAN class="SS0">
+</SPAN>
+
+<hr size="2px" color="black" /><h3>Punto 2 : Crear un arreglo de números enteros de 20 posiciones, el cual, debe ser llenado con números aleatorios entre 1 y 100; 
+	después de haber llenado dicho arreglo, se debe volver a recorrer utilizando un ciclo diferente al que se usó para llenarse e imprimir los números pares e impares. 
+	Ejemplo</h3><hr size="2px" color="black" />
+<img src="../imagenes_Sofka/punto7.jpg" width="350" height="250" /> 
+<SPAN class="SS2">//LLENAR ARREGLO CON NÚMEROS AL AZAR</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">Proceso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">TALLER_MATRIZ_PUNTO2</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">p</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">m</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">vector</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">pares</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">impares</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Dimension</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">vector</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS4">20</SPAN><SPAN class="SS10">];</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Dimension</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">pares</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS4">20</SPAN><SPAN class="SS10">];</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Dimension</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">impares</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS4">20</SPAN><SPAN class="SS10">];</SPAN><SPAN class="SS0">
+    
+    
+    </SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">p</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">m</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    
+    
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"El Vector de Números al azar es: "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">19</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS11">vector</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">]</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS10">(</SPAN><SPAN class="SS16">azar</SPAN><SPAN class="SS10">(</SPAN><SPAN class="SS4">100</SPAN><SPAN class="SS10">)+</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">);</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Sin</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Saltar</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">vector</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">],</SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+        
+    </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">""</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">Para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">19</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">(</SPAN><SPAN class="SS11">vector</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">]%</SPAN><SPAN class="SS4">2</SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS10">)</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS11">pares</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS11">p</SPAN><SPAN class="SS10">]</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS11">vector</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">];</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS11">p</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS11">p</SPAN><SPAN class="SS10">+</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">SiNo</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS11">impares</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS11">m</SPAN><SPAN class="SS10">]</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS11">vector</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">];</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS11">m</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS11">m</SPAN><SPAN class="SS10">+</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"El vector de Números Pares es: "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">p</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">&gt;</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">Para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">p</SPAN><SPAN class="SS10">-</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Sin</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Saltar</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">pares</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">],</SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">    
+        </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">SiNo</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"El vector de Números pares sin elementos: "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">""</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+            
+    </SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">m</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">&gt;</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"El vector de Números Impares es: "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">Para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">m</SPAN><SPAN class="SS10">-</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Sin</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Saltar</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">impares</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">],</SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">SiNo</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"El vector de Números impares sin elementos: "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">""</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">    
+    
+</SPAN><SPAN class="SS5">FinProceso</SPAN><SPAN class="SS0">
+
+
+<hr size="2px" color="black" /><h3>Punto 3 : Imprimir los números primos del 1 al 1000, el resultado debe ser buscado de forma matemática.</h3><hr size="2px" color="black" />
+<SPAN class="SS2">//Números Primos del 1 al 1000</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">//#################################</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">Proceso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">TALLER_MATRIZ_PUNTO3</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">num</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">contador</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Números Primos de 1 al 1000"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">num</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1000</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS11">contador</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+        
+        </SPAN><SPAN class="SS5">Mientras</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">≤</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">num</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">num</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">mod</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">==</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS2">//Mod determina si el residuo de la división entre dos números es 0</SPAN><SPAN class="SS0">
+                </SPAN><SPAN class="SS11">contador</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">contador</SPAN><SPAN class="SS10">+</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">+</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">FinMientras</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">si</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">contador</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">==</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">2</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entonces</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Sin</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Saltar</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">num</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+            
+        </SPAN><SPAN class="SS5">FinSi</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">""</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    
+</SPAN><SPAN class="SS5">FinProceso</SPAN><SPAN class="SS0">
+</SPAN>
+
+<hr size="2px" color="black" /><h3>Punto 4 : Dada la siguiente matriz bidimensional, el cual debe de quemar en el código</h3><hr size="2px" color="black" />
+<img src="../imagenes_Sofka/punto8.jpg" width="350" height="250" /> 
+<h3>Utilizando el conocimiento adquirido, a excepción de hacerlo de forma manual, imprima la siguiente matriz bidimensional.</h3>
+<img src="../imagenes_Sofka/punto9.jpg" width="350" height="250" /> 
+<SPAN class="SS2">//NUMEROS CONSECUTIVOS</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">//###############################################################</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">Proceso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">TALLER_MATRIZ_PUNTO4</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">fila</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">f</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">c</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">columna</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">matriz</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">diez</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">co</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">vector</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">matriz2</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">contador</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">contador2</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">num</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Real</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS2">//Definir diez Como Caracter;</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">//Dimension vector[5*5];</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Dimension</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">matriz</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS4">4</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS4">5</SPAN><SPAN class="SS10">];</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Dimension</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">matriz2</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS4">4</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS4">5</SPAN><SPAN class="SS10">];</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS11">f</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">co</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">c</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">contador</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">num</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS2">//diez&lt;-10;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS2">//matriz2[4,4]&lt;-0;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS2">//vector[5]&lt;-0;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS2">//mientras contador &lt;20 Hacer</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">fila</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">3</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">columna</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">4</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+            
+                </SPAN><SPAN class="SS11">matriz</SPAN><SPAN class="SS10">(</SPAN><SPAN class="SS11">fila</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">columna</SPAN><SPAN class="SS10">)</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">contador</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+                </SPAN><SPAN class="SS11">contador</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS11">contador</SPAN><SPAN class="SS10">+</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+            
+            </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+            
+        </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS2">//FinMientras</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS11">diez</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">10</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">fila</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">columna</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">4</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+                        
+                </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"0"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">matriz</SPAN><SPAN class="SS10">(</SPAN><SPAN class="SS11">fila</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">columna</SPAN><SPAN class="SS10">),</SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Sin</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Saltar</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+                
+        </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">""</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+    
+    
+    </SPAN><SPAN class="SS5">para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">fila</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">2</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">3</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">columna</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">4</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+            
+            </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">matriz</SPAN><SPAN class="SS10">(</SPAN><SPAN class="SS11">fila</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">columna</SPAN><SPAN class="SS10">),</SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Sin</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Saltar</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+            
+        </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">""</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+    
+    
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">""</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS2">//escribir matriz(1,4);</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS2">//##########################################################</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS2">//mientras contador &lt;20 Hacer</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">Para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">f</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">3</SPAN><SPAN class="SS0">  </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS5">para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">co</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">4</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+                
+                </SPAN><SPAN class="SS2">//matriz2(f,co) &lt;- azar(10);</SPAN><SPAN class="SS0">
+                </SPAN><SPAN class="SS11">matriz2</SPAN><SPAN class="SS10">(</SPAN><SPAN class="SS11">f</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">co</SPAN><SPAN class="SS10">)</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">c</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+                </SPAN><SPAN class="SS11">c</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS11">c</SPAN><SPAN class="SS10">+</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+                </SPAN><SPAN class="SS2">//contador&lt;-contador+1;</SPAN><SPAN class="SS0">
+                </SPAN><SPAN class="SS2">//Escribir matriz2(f,co);</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+            
+        </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS2">//FinMientras</SPAN><SPAN class="SS0">
+    
+    
+    </SPAN><SPAN class="SS5">para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">f</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">co</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">4</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+            
+            </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"0"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">matriz2</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS11">f</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">co</SPAN><SPAN class="SS10">],</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Sin</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Saltar</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+            
+        </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">""</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">f</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">-</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">co</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">4</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">-</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+            
+            </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"0"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">matriz2</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS11">f</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">co</SPAN><SPAN class="SS10">],</SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Sin</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Saltar</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS2">//Escribir matriz2[1,0] sin saltar;</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">""</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+    
+
+    </SPAN><SPAN class="SS5">para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">f</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">2</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">2</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">co</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">4</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+            
+            </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">matriz2</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS11">f</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">co</SPAN><SPAN class="SS10">],</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Sin</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Saltar</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+            
+        </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">""</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">f</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">3</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">3</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">-</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">co</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">4</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">-</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+            
+            </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">matriz2</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS11">f</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">co</SPAN><SPAN class="SS10">],</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Sin</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Saltar</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+            
+        </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">""</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+
+</SPAN><SPAN class="SS5">FinProceso</SPAN><SPAN class="SS0">
+</SPAN>
+
+
+
+<hr size="2px" color="black" /><h3>Punto 5 : Se debe de imprimir el siguiente cuadro</h3><hr size="2px" color="black" />
+<img src="../imagenes_Sofka/punto10.jpg" width="600" height="350"/> 
+<h3>El usuario deberá insertar la fila y columna de la cual desea ver el resultado, 
+	el resultado de cada celda debe estar previamente calculado en una matriz bidimensional 
+	la cual cada resultado obedecerá a la fila y columna insertada por el usuario..</h3>
+<SPAN class="SS2">//TABLAS DE MULTIPLICACIÓN    </SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">//###########################################################</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">Proceso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">TALLER_MATRIZ_PUNTO5</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">FILAS</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">COLUMNAS</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">j</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">tabla_multiplicar</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">tabla_columna</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">vector_fila</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">FILAS</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">10</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">COLUMNAS</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">10</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">dimension</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">tabla_multiplicar</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS4">11</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS4">11</SPAN><SPAN class="SS10">];</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Dimension</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">tabla_columna</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS4">10</SPAN><SPAN class="SS10">];</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Dimension</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">vector_fila</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS4">10</SPAN><SPAN class="SS10">];</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS11">llenarTabla</SPAN><SPAN class="SS10">(</SPAN><SPAN class="SS11">tabla_multiplicar</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">FILAS</SPAN><SPAN class="SS10">);</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">calcularTabla</SPAN><SPAN class="SS10">(</SPAN><SPAN class="SS11">tabla_multiplicar</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">FILAS</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">COLUMNAS</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">);</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">imprimirTabla</SPAN><SPAN class="SS10">(</SPAN><SPAN class="SS11">tabla_multiplicar</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">10</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS4">10</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">tabla_columna</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">vector_fila</SPAN><SPAN class="SS10">);</SPAN><SPAN class="SS0">
+    
+</SPAN><SPAN class="SS2">//    definir contador2,z Como Entero;</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">//    contador2&lt;-1;</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">//    Para z &lt;- 0 Hasta 9 Con Paso 1 Hacer</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">//        //para j &lt;- 0 hasta 9 Con Paso 1 Hacer</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">//        </SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">//        tabla_columna(z) &lt;- contador2;</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">//        contador2&lt;-contador2+1;</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">//    finpara</SPAN><SPAN class="SS0">
+
+</SPAN><SPAN class="SS5">FinProceso</SPAN><SPAN class="SS0">
+
+</SPAN><SPAN class="SS5">SubProceso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">calcularTabla</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">(</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">tabla_multiplicar</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">FILAS</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">COLUMNAS</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">)</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">j</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">j</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">FILAS</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">Para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">COLUMNAS</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+
+            </SPAN><SPAN class="SS11">tabla_multiplicar</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">j</SPAN><SPAN class="SS10">]</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS11">tabla_multiplicar</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">]*</SPAN><SPAN class="SS11">tabla_multiplicar</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">j</SPAN><SPAN class="SS10">];</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS2">//tabla_multiplicar[i,j]&lt;-i*j;</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+    
+</SPAN><SPAN class="SS5">FinSubProceso</SPAN><SPAN class="SS0">
+
+</SPAN><SPAN class="SS5">SubProceso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">llenarTabla</SPAN><SPAN class="SS10">(</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">tabla_multiplicar</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">FILAS</SPAN><SPAN class="SS10">)</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">contador</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">contador</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">Para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">FILAS</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS11">tabla_multiplicar</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">]</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS11">contador</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS11">tabla_multiplicar</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">]</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS11">contador</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+        
+        </SPAN><SPAN class="SS11">contador</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS11">contador</SPAN><SPAN class="SS10">+</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+    
+</SPAN><SPAN class="SS5">FinSubProceso</SPAN><SPAN class="SS0">
+
+</SPAN><SPAN class="SS5">SubProceso</SPAN><SPAN class="SS0">  </SPAN><SPAN class="SS11">imprimirTabla</SPAN><SPAN class="SS10">(</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">tabla_multiplicar</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">FILAS</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">COLUMNAS</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">tabla_columna</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">vector_fila</SPAN><SPAN class="SS10">)</SPAN><SPAN class="SS0">
+    
+</SPAN><SPAN class="SS2">//    definir contador,z Como Entero;</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">//    contador&lt;-1;</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">//    Para z &lt;- 0 Hasta 8 Con Paso 1 Hacer</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">//        //para j &lt;- 0 hasta 4 Con Paso 1 Hacer</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">//        </SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">//        tabla_columna(z) &lt;- contador;</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">//        contador&lt;-contador+1;</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">//        finpara</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">j</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">contador2</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">z</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">textoFilas</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Caracter</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0">  </SPAN><SPAN class="SS6">" * * *  Tablas de Multilplicar * * *"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">""</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"                             C O L U M N A S "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS11">textoFilas</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS6">"   FILAS   "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">contador2</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">Para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">z</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">9</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+            
+        </SPAN><SPAN class="SS11">vector_fila</SPAN><SPAN class="SS10">(</SPAN><SPAN class="SS11">z</SPAN><SPAN class="SS10">)</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">contador2</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS11">contador2</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS11">contador2</SPAN><SPAN class="SS10">+</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"      "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">vector_fila</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS11">z</SPAN><SPAN class="SS10">]</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Sin</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Saltar</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+        
+    </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">""</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">""</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS2">//para FILAS&lt;-0 Hasta  8 Hacer</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS2">//Escribir Subcadena(textoFilas,filas,filas) Sin Saltar;</SPAN><SPAN class="SS0">
+        
+        </SPAN><SPAN class="SS2">//para j&lt;- 0 Hasta COLUMNAS-1 con paso 1 Hacer</SPAN><SPAN class="SS0">
+            
+            </SPAN><SPAN class="SS2">//Escribir Subcadena(textoFilas,filas,filas) Sin Saltar;</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS2">//FinPara</SPAN><SPAN class="SS0">
+            
+    </SPAN><SPAN class="SS5">Para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">j</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">9</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS2">//escribir " "Sin Saltar;</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">""</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS16">Subcadena</SPAN><SPAN class="SS10">(</SPAN><SPAN class="SS11">textoFilas</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">j</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">j</SPAN><SPAN class="SS10">),</SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">j</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Sin</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Saltar</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+            
+        </SPAN><SPAN class="SS5">Para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">FILAS</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+                
+            </SPAN><SPAN class="SS5">escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"   "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS6">"x"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">j</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Sin</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Saltar</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+            
+        </SPAN><SPAN class="SS5">escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">""</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">" 10"</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Sin</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Saltar</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">j</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">10</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+                        
+        </SPAN><SPAN class="SS5">Para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">10</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">10</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Con</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Paso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS5">escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"  "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">j</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS6">"x"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS6">" "</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Sin</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Saltar</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+                        
+    </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">""</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+                </SPAN><SPAN class="SS2">//FinPara</SPAN><SPAN class="SS0">
+                
+            </SPAN><SPAN class="SS2">//finpara</SPAN><SPAN class="SS0">
+            
+
+</SPAN><SPAN class="SS2">//###################################################################################</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">""</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">    
+</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">""</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+
+</SPAN><SPAN class="SS5">Repetir</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"************************************************************************************"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Señor Usuario"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">""</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"1. Consultar Resultado : "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"2. Salir del sistema : "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    
+    </SPAN><SPAN class="SS5">Segun</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">    
+            </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite el Número de la COLUMNA de la Tabla de Multiplicación que desea consultar: "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">j</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite el Número de la FILA de la Tabla de Multiplicación que desea consultar: "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+            
+            </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"El Resultado de su consulta es: "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">tabla_multiplicar</SPAN><SPAN class="SS10">[</SPAN><SPAN class="SS11">j</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">];</SPAN><SPAN class="SS0">            
+        </SPAN><SPAN class="SS4">2</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Salir"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+            
+        </SPAN><SPAN class="SS5">De</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Otro</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Modo</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"La opción elegida no existe"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">FinSegun</SPAN><SPAN class="SS0">
+    
+</SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Que</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">=</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">2</SPAN><SPAN class="SS0">
+
+</SPAN><SPAN class="SS2">//Escribir "0000",tabla_multiplicar[1,2];</SPAN><SPAN class="SS0">
+
+
+</SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">""</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+
+</SPAN><SPAN class="SS5">FinSubProceso</SPAN><SPAN class="SS0">
+
+</SPAN>
+
+</PRE>
+</header>
+<hr size="2px" color="black" />	
+<li><a href="../videos_Sofka/video_taller4.mp4" style="color:#FF0000">Ver Video del Tema</a></li>
+<br>
+<li><a href="../index.html" style="color:#FF0000">Regresar Portafolio</a></li>
+<hr size="8px" color="black"/>
+</BODY></HTML>
